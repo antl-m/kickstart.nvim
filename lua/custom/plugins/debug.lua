@@ -11,9 +11,11 @@ return {
   'mfussenegger/nvim-dap',
   -- NOTE: And you can specify dependencies as well
   dependencies = {
-    'nvim-neotest/nvim-nio',
     -- Creates a beautiful debugger UI
     'rcarriga/nvim-dap-ui',
+
+    -- Required dependency for nvim-dap-ui
+    'nvim-neotest/nvim-nio',
 
     -- Installs the debug adapters for you
     'williamboman/mason.nvim',
